@@ -25,7 +25,8 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-font-style: normal;
+  font-style: normal;
+  color: #84392d;
 }
 
 .flaticon-case:before { content: "\f100"; }
@@ -34,3 +35,8 @@ font-style: normal;
 .flaticon-jury:before { content: "\f103"; }
 .flaticon-balance:before { content: "\f104"; }
 .flaticon-straight-quotes:before { content: "\f105"; }
+
+.flat-icon {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(75%) saturate(932%) hue-rotate(332deg) brightness(93%) contrast(84%);
+  width: 40px;
+}
