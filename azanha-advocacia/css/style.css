@@ -1018,12 +1018,12 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.25) 100%),url(../img/azanha.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: linear-gradient(), url(../img/banner/banner2.png);
 }
 
 /* line 7, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
@@ -1078,6 +1078,7 @@ h3 {
   .slider_area_inner {
     height: 600px;
     background-position: right;
+    
   }
 }
 
@@ -5302,5 +5303,9 @@ h6 {
   font-size: 12px;
 }
 
+.about-img {
+  width: 100%;
+  height: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
