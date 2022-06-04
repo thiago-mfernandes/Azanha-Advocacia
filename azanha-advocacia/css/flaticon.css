@@ -40,3 +40,7 @@
   filter: brightness(0) saturate(100%) invert(22%) sepia(75%) saturate(932%) hue-rotate(332deg) brightness(93%) contrast(84%);
   width: 40px;
 }
+
+.for-flaticon-balance-in-contact-form {
+  opacity: 0.09;
+}
