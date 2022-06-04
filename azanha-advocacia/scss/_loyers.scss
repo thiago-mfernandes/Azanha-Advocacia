@@ -42,14 +42,14 @@
                         display: inline-block;
                         width: 35px;
                         height: 35px;
-                        color: #F2C64D;
+                        color: #84392d;
                         background: #FEF7E7;
                         @include border-radius(10px);
                         margin: 0 5.5px;
                         text-align: center;
                         line-height: 35px;
                         &:hover{
-                            background: #F2C64D;
+                            background: #84392d;
                             color: #fff;
                         }
                     }
