@@ -5303,8 +5303,19 @@ h6 {
   font-size: 12px;
 }
 
+.logo-img {
+  width: 80%;
+  padding: 0.5rem 0;
+
+}
+
+.logo-footer {
+  width: 40%;
+}
+
 .about-img {
   width: 100%;
+  border-radius: 50%;
 }
 
 
